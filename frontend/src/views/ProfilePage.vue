@@ -80,7 +80,7 @@ export default {
 
     //Appel de notre API
     fetch(
-      "https://localhost:3000/groupomania/profile/" + this.$route.params.id,
+      "https//localhost:3000/groupomania/profile/" + this.$route.params.id,
       {
         method: "GET", //Methode d'envoi
         headers: new Headers({
@@ -106,7 +106,7 @@ export default {
   updated() {
     //Appel de notre API
     fetch(
-      "https://localhost:3000/groupomania/profile/" + this.$route.params.id,
+      "https//localhost:3000/groupomania/profile/" + this.$route.params.id,
       {
         method: "GET", //Methode d'envoi
         headers: new Headers({
@@ -141,7 +141,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/report/reported/${userReportedId}/${userReporterId}`,
+        `https//localhost:3000/groupomania/report/reported/${userReportedId}/${userReporterId}`,
         {
           //Notre requête GET
           method: "GET", //Methode d'envoi

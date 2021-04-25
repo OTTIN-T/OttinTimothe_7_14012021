@@ -97,7 +97,7 @@ export default {
     this.isAdmin = auth.isAdmin;
 
     //Appel de notre API
-    fetch("https://localhost:3000/groupomania/post/" + this.$route.params.id, {
+    fetch("https//localhost:3000/groupomania/post/" + this.$route.params.id, {
       //ID du post
       headers: new Headers({
         "Content-Type": "application/json", //On 'précise' que l'objet envoyé sera au format JSON
@@ -139,7 +139,7 @@ export default {
         link: this.link.trim(),
       };
 
-      fetch("https://localhost:3000/groupomania/post/" + postId, {
+      fetch("https//localhost:3000/groupomania/post/" + postId, {
         method: "PUT",
         headers: new Headers({
           "Content-Type": "application/json",

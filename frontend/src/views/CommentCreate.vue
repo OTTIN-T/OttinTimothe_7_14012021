@@ -83,7 +83,7 @@ export default {
       };
 
       fetch(
-        "https://localhost:3000/groupomania/comment/" + this.$route.params.id,
+        "https//localhost:3000/groupomania/comment/" + this.$route.params.id,
         {
           method: "POST",
           headers: new Headers({

@@ -137,7 +137,7 @@ export default {
         this.password.length > 0
       ) {
         //On vérifie le password
-        return fetch("https://localhost:3000/groupomania/user/signup", {
+        return fetch("https//localhost:3000/groupomania/user/signup", {
           //Notre requête POST
           method: "POST", //Methode d'envoi
           headers: new Headers({

@@ -137,7 +137,7 @@ export default {
     this.isAdmin = auth.isAdmin;
 
     fetch(
-      "https://localhost:3000/groupomania/report/admin/" + this.$route.params.id,
+      "https//localhost:3000/groupomania/report/admin/" + this.$route.params.id,
       {
         headers: new Headers({
           "Content-Type": "application/json", //On 'précise' que l'objet envoyé sera au format JSON
@@ -174,7 +174,7 @@ export default {
         postId: postId,
         commentId: commentId,
       };
-      fetch("https://localhost:3000/groupomania/report/admin/cancel/", {
+      fetch("https//localhost:3000/groupomania/report/admin/cancel/", {
         method: "DELETE",
         headers: new Headers({
           "Content-Type": "application/json",
@@ -187,7 +187,7 @@ export default {
           if (!report.error) {
             return fetch(
               //On met à jour l'affichage
-              "https://localhost:3000/groupomania/report/admin/" +
+              "https//localhost:3000/groupomania/report/admin/" +
                 this.$route.params.id,
               {
                 headers: new Headers({

@@ -95,7 +95,7 @@ export default {
     this.isAdmin = auth.isAdmin;
 
     //Appel de notre API
-    fetch("https://localhost:3000/groupomania/post/", {
+    fetch("https//localhost:3000/groupomania/post/", {
       method: "GET", //Methode d'envoi
       headers: new Headers({
         Authorization: `Bearer ${this.token}`, //On recupèrer notre token
@@ -122,7 +122,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/report/post/${postId}/${userReporterId}/`,
+        `https//localhost:3000/groupomania/report/post/${postId}/${userReporterId}/`,
         {
           //Notre requête GET
           method: "GET", //Methode d'envoi
@@ -150,7 +150,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/likePost/like/${postId}/${userId}`,
+        `https//localhost:3000/groupomania/likePost/like/${postId}/${userId}`,
         {
           method: "GET", //Methode d'envoi
           headers: new Headers({
@@ -177,7 +177,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/likePost/dislike/${postId}/${userId}`,
+        `https//localhost:3000/groupomania/likePost/dislike/${postId}/${userId}`,
         {
           method: "GET", //Methode d'envoi
           headers: new Headers({

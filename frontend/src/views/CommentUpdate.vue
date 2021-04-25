@@ -76,7 +76,7 @@ export default {
 
     //Appel de notre API
     fetch(
-      "https://localhost:3000/groupomania/comment/" + this.$route.params.id,
+      "https//localhost:3000/groupomania/comment/" + this.$route.params.id,
       {
         //ID du post
         headers: new Headers({
@@ -115,7 +115,7 @@ export default {
         message: this.comment.trim(), //trim() supprime les espaces inutiles rajouté par l'utilisateur si il y en a
       };
 
-      fetch("https://localhost:3000/groupomania/comment/" + commentId, {
+      fetch("https//localhost:3000/groupomania/comment/" + commentId, {
         method: "PUT",
         headers: new Headers({
           "Content-Type": "application/json",

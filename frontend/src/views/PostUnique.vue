@@ -186,7 +186,7 @@ export default {
     this.isAdmin = auth.isAdmin;
 
     //Appel de notre API
-    fetch("https://localhost:3000/groupomania/post/" + this.$route.params.id, {
+    fetch("https//localhost:3000/groupomania/post/" + this.$route.params.id, {
       method: "GET", //Methode d'envoi
       headers: new Headers({
         Authorization: `Bearer ${this.token}`, //On authentifie notre requête
@@ -247,7 +247,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/report/post/${postId}/${userReporterId}/`,
+        `https//localhost:3000/groupomania/report/post/${postId}/${userReporterId}/`,
         {
           //Notre requête GET
           method: "GET", //Methode d'envoi
@@ -275,7 +275,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/report/comment/${commentId}/${userReporterId}/`,
+        `https//localhost:3000/groupomania/report/comment/${commentId}/${userReporterId}/`,
         {
           //Notre requête GET
           method: "GET", //Methode d'envoi
@@ -307,7 +307,7 @@ export default {
       }
 
       //Appel de notre API
-      fetch("https://localhost:3000/groupomania/post/" + postId, {
+      fetch("https//localhost:3000/groupomania/post/" + postId, {
         //L'id du post à supprimer
         //Notre requête GET
         method: "DELETE", //Methode d'envoi
@@ -341,7 +341,7 @@ export default {
       }
 
       //Appel de notre API
-      fetch("https://localhost:3000/groupomania/comment/" + commentId, {
+      fetch("https//localhost:3000/groupomania/comment/" + commentId, {
         method: "DELETE", //Methode d'envoi
         headers: new Headers({
           "Content-Type": "application/json",
@@ -356,7 +356,7 @@ export default {
 
             //On raffraichit notre post
             return fetch(
-              "https://localhost:3000/groupomania/post/" + this.$route.params.id,
+              "https//localhost:3000/groupomania/post/" + this.$route.params.id,
               {
                 method: "GET", //Methode d'envoi
                 headers: new Headers({
@@ -394,7 +394,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/likePost/like/${postId}/${userId}`,
+        `https//localhost:3000/groupomania/likePost/like/${postId}/${userId}`,
         {
           method: "GET", //Methode d'envoi
           headers: new Headers({
@@ -424,7 +424,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/likePost/dislike/${postId}/${userId}`,
+        `https//localhost:3000/groupomania/likePost/dislike/${postId}/${userId}`,
         {
           method: "GET", //Methode d'envoi
           headers: new Headers({
@@ -455,7 +455,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/likeComment/like/${commentId}/${userId}`,
+        `https//localhost:3000/groupomania/likeComment/like/${commentId}/${userId}`,
         {
           method: "GET", //Methode d'envoi
           headers: new Headers({
@@ -482,7 +482,7 @@ export default {
 
       //Appel de notre API
       fetch(
-        `https://localhost:3000/groupomania/likeComment/dislike/${commentId}/${userId}`,
+        `https//localhost:3000/groupomania/likeComment/dislike/${commentId}/${userId}`,
         {
           method: "GET", //Methode d'envoi
           headers: new Headers({

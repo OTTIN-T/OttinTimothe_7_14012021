@@ -105,7 +105,7 @@ export default {
         link: this.link.trim(),
       };
 
-      fetch("https://localhost:3000/groupomania/post/", {
+      fetch("https//localhost:3000/groupomania/post/", {
         //Notre requête POST
         method: "POST",
         headers: new Headers({

@@ -100,7 +100,7 @@ export default {
 
     //Appel de notre API
     fetch(
-      "https://localhost:3000/groupomania/profile/" + this.$route.params.id,
+      "https//localhost:3000/groupomania/profile/" + this.$route.params.id,
       {
         //ID du post
         headers: new Headers({
@@ -141,7 +141,7 @@ export default {
         poste: this.poste.trim(),
       };
 
-      fetch("https://localhost:3000/groupomania/profile/" + userUpdate, {
+      fetch("https//localhost:3000/groupomania/profile/" + userUpdate, {
         method: "PUT",
         headers: new Headers({
           "Content-Type": "application/json",

@@ -76,7 +76,7 @@ export default {
 
     //Appel de notre API
     fetch(
-      "https://localhost:3000/groupomania/profile/" + this.$route.params.id,
+      "https//localhost:3000/groupomania/profile/" + this.$route.params.id,
       {
         //ID du post
         headers: new Headers({
@@ -115,7 +115,7 @@ export default {
         firstname: this.firstname.trim(),
       };
 
-      fetch("https://localhost:3000/groupomania/profile/" + userId, {
+      fetch("https//localhost:3000/groupomania/profile/" + userId, {
         method: "DELETE",
         headers: new Headers({
           "Content-Type": "application/json",

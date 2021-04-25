@@ -100,7 +100,7 @@ export default {
       };
       if (user.email.length && user.password.length > 0) {
         //On vérifie nos champs
-        fetch("https://localhost:3000/groupomania/user/login", {
+        fetch("https//localhost:3000/groupomania/user/login", {
           method: "POST", //Methode d'envoi
           headers: new Headers({
             "Content-Type": "application/json",
