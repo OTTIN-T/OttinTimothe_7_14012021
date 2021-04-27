@@ -6,12 +6,12 @@ Projet réalisé par OTTIN Timothé.
 Ceci est le projet numéro 7 de la formation développeur web d'OpenClassrooms.
 Le projet consistait à la réalisation d'un réseau social pour une entreprise. 
 
-Nous avons une application web:
- - Avec un serveur Node.JS (et Express) pour gérer l'API,
- - L'ORM Sequelize pour manipuler la base de données,
- - Le framework Vue.JS (V3) pour le front.
+L'application web se devait d'être en Javascript et utiliser une base de données relationnelles en SQL pour le stockage de données. L'utilisation d'un framework ou de librairies était autorisé. Je devais veiller aux respects des standards de l'OWASP, des W3C et des WCAG.
 
-L'application web se devait d'être en Javascript. L'utilisation d'un framework ou de librairies était autorisé. Je devais veiller aux respects des standards de l'OWASP, des W3C et des WCAG. Et également utiliser une base de données relationnelles en SQL pour le stockage de données.
+Nous avons une application web avec:
+ - Un serveur Node.JS (avec Express) pour gérer l'API,
+ - l'ORM Sequelize pour manipuler la base de données en SQL,
+ - et le framework Vue.JS (V3) pour le front.
  
  Concernant l'API, elle gère:
 - L'inscription d'un utilisateur sur le site,
@@ -23,6 +23,7 @@ L'application web se devait d'être en Javascript. L'utilisation d'un framework 
 - Des options d'administrations (gestion des signalements, modifications/suppressions d'un post/commentaire/user).
 
 Ceci est mon premier projet avec Vue.JS et je n'avais jamais manipulé de base de données relationnelles. 
+Concernant le design de l'application, je n'ai pas eu le temps de réaliser quelque chose qui me plaise réellement et d'aller au bout des mes idées. Arrivant en fin de formation, j'ai dû aller à l'essentiel, afin de rendre une premier version d'application fonctionnelle. 
 
 Ce projet fut réalisé en quasi-totale autonomie. J'avais l'aide d'un mentor OpenClassrooms une fois par semaine. 
 
